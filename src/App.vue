@@ -23,7 +23,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, toRefs } from "vue";
-import ImageLoader from "@/components/ImageLoader.vue";
+import ImageLoader from "./components/ImageLoader.vue";
 import { createWorker, PSM, OEM, Worker } from "tesseract.js";
 import axios from "axios";
 import Editor from "@tinymce/tinymce-vue";
